@@ -228,6 +228,20 @@ header {
 	text-align: center;
 }
 
+.div1 h1{
+	position: relative;
+	bottom: -150px;
+	font-size: 120px;
+	text-align: center;
+}
+
+.div2 h1{
+	position: relative;
+	bottom: -242px;
+	font-size: 78px;
+	text-align: center;
+}
+
 .wave{
 	position: relative;
 	top: -173px;
