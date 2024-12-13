@@ -1,5 +1,5 @@
 # JeremiahFabul - IT1101
-This portfolio webpage, aligned with the Sustainable Development Goal No. 13 (Climate Action), features the organization of projects/works that can be aligned with the chosen SDG. Through this webpage, I hope to share my authenticity as an environmentalist to help combat the underlying effects of climate change.
+This portfolio webpage, aligned with the Sustainable Development Goal No. 13 (Climate Action), features the organization of projects/works related with the chosen SDG. Through this webpage, I hope to share my authenticity as an environmentalist to help combat the underlying effects of climate change.
 
 HOMEPAGE | A brief introduction about me and how I deeply relate with the chosen SDG is explained in this section.
 
