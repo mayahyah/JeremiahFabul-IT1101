@@ -230,14 +230,14 @@ header {
 
 .div1 h1{
 	position: relative;
-	bottom: -100px;
+	bottom: -50px;
 	font-size: 120px;
 	text-align: center;
 }
 
 .div2 h1{
 	position: relative;
-	bottom: -192px;
+	bottom: -142px;
 	font-size: 78px;
 	text-align: center;
 }
