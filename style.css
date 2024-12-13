@@ -44,8 +44,38 @@ header {
 }
 
 .opener{
+	width: 100%;
+	min-height: 100vh;
 	display: flex;
-	justify-content: space-evenly;
+	align-items: center;
+	gap: 7em;
+	padding: 40px 50% 0;
+	color: white;
+	top: 5%;
+}
+
+.opener-content p1{
+	position: relative;
+	top: 20px;
+	left: -95px;
+}
+
+.opener-content h2{
+	position: relative;
+	top: 30px;
+	left: -95px;
+}
+
+.opener-content h3{
+	position: relative;
+	top: 0px;
+	left: -95px;
+}
+
+.opener-content p2{
+	position: relative;
+	top: 40px;
+	left: -95px;
 }
 
 .opener img {
@@ -449,4 +479,3 @@ header {
 .email p{
 	color: white;
 }
-
