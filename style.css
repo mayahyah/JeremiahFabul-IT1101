@@ -1,0 +1,458 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: verdana;
+}
+
+span{
+	color: darkgreen;
+}
+
+body {
+	background-color: black;
+	overflow-x: hidden;
+	min-height: 100vh;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 50%;
+	width: 100%;
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: white;
+	padding: 6px 15px;
+	border-radius: 15px;
+	margin: 0 10px;
+	font-weight: 500;
+}
+
+.navigation a:hover, 
+.navigation a.active {
+	background: darkgreen;
+	color: white;
+}
+
+.opener{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	gap: 7em;
+	padding: 40px 50% 0;
+	color: white;
+	top: 5%;
+}
+
+.opener img {
+	position: absolute;
+	top: 5%;
+	left: 3%;
+	width: 45%;
+	pointer-events: none;
+	padding: 10px 0px;
+}
+
+.opener-content h2{
+	font-family: Alef;
+	font-size: 20px;
+	padding: 0 0;
+}
+
+.opener-content h3{
+	font-size: 87px;
+	color: white;
+	padding: 0 0;
+	line-height: 70px;
+}
+
+.opener-content h1{
+	font-size: 87px;
+	line-height: 1.2;
+	padding: 0 0;
+}
+
+.opener-content p{
+	font-size: 15px;
+	padding: 3% 0;
+}
+
+.climate-content{
+	background-color: darkgreen;
+	width: 100%;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+.climate-content p{
+	padding: 5px;
+}
+
+.trivia{
+	position: relative;
+	top: -68px;
+	border-radius: 10px;
+	border: 2px solid darkgreen;
+	padding: 0
+	width: 200px;
+	height: 108px;
+	margin: 60px;
+}
+
+.trivia h2{
+	color: darkgreen;
+	margin: 0;
+	position: relative;
+	top: 10px;
+	left: 17px;
+	font-family: 'Averia Sans Libre';
+	font-size: 30px;
+}
+
+.trivia p{
+	color: white;
+	font-size: 17px;
+	position: relative;
+	left: 17px;
+	top: 9px;
+}
+
+.about-me{
+	background-color: darkgreen;
+	color: black;
+	position: relative;
+	top: -68px;
+	
+}
+
+.header h1{
+	font-size: 200px;
+	text-align: center;
+}
+
+.img-skills{
+	position: absolute;
+	top: 1350px;
+	left: 82px;
+	z-index: +1;
+}
+
+.img-expertise{
+	position: absolute;
+	top: 1347px;
+	right: 89px;
+	z-index: +1;
+}
+
+
+.skills {
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0px;
+	background-color: darkgreen;
+	position: relative;
+	top: -68px;
+
+}
+
+.div {
+	position: relative;
+	top: 5px;
+	width: 500px;
+	height: 440px;
+	padding: 0;
+	background-color: black;
+	border-radius: 20px;
+	color: white;
+}
+
+.skills p{
+	position: relative;
+	left: 80px;
+}
+	
+.skills {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.div1 p{
+	position: relative;
+	top: 84px;
+	left: 25px;
+	width: 450px;
+	text-align: center;
+}
+
+.div2 p{
+	position: relative;
+	top: 107px;
+	left: 25px;
+	width: 450px;
+	text-align: center;
+}
+
+.wave{
+	position: relative;
+	top: -173px;
+	z-index: +1;
+	margin: 0;
+	padding: 0px;
+}
+
+
+.projects {
+	position: relative;
+	top: -198px;
+	left: 100;
+	width: 100%;
+	height: 530px;
+	background-color: #1D3F5A;
+	z-index: +1;
+}
+
+.left{
+	position: relative;
+	top: 20px;
+	width: 500px;
+	height: 440px;
+	padding: 0;
+	background-color: #1D3F5A;
+	border-radius: 20px;
+}
+
+.left h1{
+	color: #79D2E8;
+	position: relative;
+	top: 100px;
+	left: 50px;
+	font-size: 80px;
+}
+
+.left h2{
+	color: black;
+	position: relative;
+	top: 70px;
+	left: 50px;
+	font-size: 80px;
+	z-index: +1;
+}
+
+.left p{
+	color: black;
+	position: relative;
+	top: 100px;
+	left: 60px;
+	font-size: 20px;
+	z-index: +1;
+}
+
+.projects {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.right {
+	position: relative;
+	top: 20px;
+	width: 500px;
+	height: 440px;
+	padding: 0;
+	background-color: #1D3F5A;
+	border-radius: 20px;
+	
+}
+
+.graphics {
+	position: relative;
+	top: -231px;
+	left: 0;
+	width: 100%;
+	height: 390px;
+	background-color: #1D3F5A;
+	z-index: +1;
+}
+
+.graphics {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.img_graphics {
+	position: relative;
+	right: -40px;
+}
+
+.climate_content {
+	position: relative;
+	left: 0;
+	top: 49px;
+}
+
+.climate_content h1{
+	color: #79D2E8;
+	position: relative;
+	font-size: 55px;
+	left: -68px;
+}
+
+.climate_content p{
+	color: white;
+	position: relative;
+	top: 5px;
+	left: -68px;
+	text-align: center;
+	font-size: 15px;
+	width: 470px;
+}
+
+.zigzag{
+	position: relative;
+	top: -236px;
+	z-index: +1;
+	margin: 0;
+	padding: 0px;
+}
+
+.susdevg{
+	line-height: 100px;
+	position: relative;
+	top: -445px;
+}
+
+.susdevg h1{
+	color: white;
+	font-size: 135px;
+	text-align: center;
+}
+
+.susdevg h2{
+	color: white;
+	font-size: 135px;
+	text-align: center;
+}
+
+.susdevg h3{
+	color: darkgreen;
+	font-size: 135px;
+	text-align: center;
+}
+
+.sdg{
+	display: flex;
+	justify-content: space-evenly;
+	position: relative;
+	top: -600px;
+	padding: 0px;
+}
+
+.sdg-content{
+	position: relative;
+	top: -698px;
+	line-height: 76px;
+	height: 50px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.sdg-explanation{
+	position: relative;
+	top: 20px;
+	width: 500px;
+	height: 150px;
+	padding: 0;
+	border-radius: 20px;
+}
+
+.sdg-explanation h1{
+	color: darkgreen;
+	position: relative;
+	top: 100px;
+	font-size: 100px;
+	text-align: right;
+}
+
+.sdg-explanation p{
+	color: white;
+	position: relative;
+	top: 118px;
+	font-size: 16px;
+	text-align: right;
+	line-height: 19px;
+}
+
+.emz{
+	background-color: #1D3F5A;
+	position: relative;
+	top: 120px;
+	height: 450px;
+	border-radius: 33% 67% 50% 50% / 47%;
+}
+
+.contact{
+	
+	background-color: black;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+}
+
+.phomail{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 30px;
+}
+
+.phone{
+	position: relative;
+	top: 5px;
+	width: 500px;
+	height: 100px;
+	padding: 0;
+	background-color: darkgreen;
+	border-radius: 20px;
+	color: black;
+	text-align: center;
+}
+
+.phone h1{
+	content: "\2706";
+}
+
+.phone p{
+	color: white;
+}
+
+.email{
+	position: relative;
+	top: 5px;
+	width: 500px;
+	height: 100px;
+	padding: 0;
+	background-color: darkgreen;
+	border-radius: 20px;
+	color: black;
+	text-align: center;
+}
+	
+.email h1{
+	content: "\2709";
+}
+
+.email p{
+	color: white;
+}
+
