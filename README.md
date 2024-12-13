@@ -7,6 +7,6 @@ ABOUT ME | Sharing my skills and expertise, the following details explain my cap
 
 PROJECTS | A portfolio of my late designed/created artworks which consists mainly of Graphic Arts. This section serves as an evidence for my skills and expertise proving my capabilities as a passionate advocate for urgent climate action.
 
-CONTACT INFORMATION | Phone: 09951497369 ; EMail: 24-02357@g.batstate-u.edu.ph
+CONTACT INFORMATION | Phone: 09951497369 ; Email: 24-02357@g.batstate-u.edu.ph
 
 To view the website, click this link: https://mayahyah.github.io/JeremiahFabul-IT1101/
