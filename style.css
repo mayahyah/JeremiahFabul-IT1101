@@ -44,14 +44,8 @@ header {
 }
 
 .opener{
-	width: 100%;
-	min-height: 100vh;
 	display: flex;
-	align-items: center;
-	gap: 7em;
-	padding: 40px 50% 0;
-	color: white;
-	top: 5%;
+	justify-content: space-evenly;
 }
 
 .opener img {
